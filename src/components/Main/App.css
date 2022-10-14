@@ -1,0 +1,12 @@
+.cardMai{
+    width: 18rem;
+}
+
+.imgCard{
+    width: 17rem;
+    height: 17rem;
+}
+
+.borderViolet {
+    border: double rgba(206, 102, 216, 0.507) 2px;
+  }
