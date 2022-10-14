@@ -4,7 +4,6 @@ import ItemCounts from "./ItemCounts";
 const Item = ({image, title, trademark, coast}) => {
   return (
     <>
-
         <div className="card cardMai borderViolet">
             <img src={image} className="imgCard" alt={title}/>
         <div className="card-body">
