@@ -1,9 +1,10 @@
 import { FiShoppingCart } from 'react-icons/fi';
+import {Link} from 'react-router-dom'
 
 function CartWidget (){
     return(
         <>
-        <FiShoppingCart />
+        <Link to='/Cart'><FiShoppingCart /></Link>
         </>
     )
 }
