@@ -18,7 +18,6 @@ function App() {
         <Route path='/id/:id' element= {<ItemDetailContainer />}/>
         <Route path="/Cart" element={<Cart/>}/>
       </Routes>
-       {/*  <Footer /> */}
     </BrowserRouter>
     </CartContextProvider>
   );

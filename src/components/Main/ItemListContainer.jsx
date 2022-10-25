@@ -18,8 +18,6 @@ const ItemListContainer = () => {
     }
   },[id])
 
-  console.log(lista);
-
     return (
       <>
       <ItemList productos={lista}/>

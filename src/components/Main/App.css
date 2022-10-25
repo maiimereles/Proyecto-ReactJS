@@ -10,3 +10,7 @@
 .borderViolet {
     border: double rgba(206, 102, 216, 0.507) 2px;
 }
+
+.with500px{
+    width: 500px;
+}

@@ -8,10 +8,10 @@ const ItemDetail = ({item}) => {
   const [itemCount, setItemCount] = useState(0);
   const ctx = useContext(CartContext)
 
-  const onAdd = (cantidad) => {
-    alert('You have selected ' + cantidad + ' items');
-    setItemCount(cantidad);
-    ctx.addItem(item, cantidad)
+  const onAdd = (qty) => {
+    alert('You have selected ' + qty + ' items');
+    setItemCount(qty);
+    ctx.addItem(item, qty)
   }
 
   return (
@@ -24,11 +24,10 @@ const ItemDetail = ({item}) => {
       <p>{item.trademark}</p>
       <p>{item.description}</p>
       <p>{item.coast}</p>
-
     {
       itemCount === 0
       ? <ItemCounts stock={10} initial={0} onAdd={onAdd}/>
-      : <Link to= '/Cart'><buttom type="button" className="btn btn-outline-primary">Carrito</buttom></Link>
+      : <Link to= '/Cart'><button type="button" className="btn btn-outline-primary">Carrito</button></Link>
     }
     </div>
     </>
