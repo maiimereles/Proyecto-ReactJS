@@ -5,9 +5,7 @@ const data = [{
     title:'CELULAR SAMSUNG A32 NEGRO',
     description:'Deleite sus ojos en los detalles con la pantalla FHD+ Super AMOLED, que alcanza los 800 nits1 para una máxima claridad incluso a plena luz del día. Eye Comfort Shield2 reduce la luz azul, y Real Smooth mantiene el movimiento fluido, esté trabajando o desplazándose por la pantalla. Todo en su pantalla expansiva Infinity-U de 6,4".',
     trademark:'Samsung',
-    coast:'$75.999,00',
-    qty:''
-
+    coast: 75.999
 },{
     id: '2',
     categoryId:'1',
@@ -15,8 +13,7 @@ const data = [{
     title:'CELULAR SAMSUNG GALAXY Z FLIP 3 5G NEW CHIP BEIGE',
     description:'Celular de 6.7" FHD+ Dynamic Amoled 2x. Procesador Snapdragon 888 Octa Core: 2.84GHz, 2.4GHz, 1.8GHz. Almacenamiento 128 Gb / RAM 8 Gb. Dual sim. Resolucion 2640 x 1080 (FHD+). Camara principal 12 + 12mp, Camara frontal 10 Mp. Sonido potente Dolby Atmos. IPX8. Resolucion de video UHD 4K (3840 x 2160) a 60fps. Tecnologia 5G. USB Type-C. USB 2.0. 802.11 a/b/g/n/ac/ax 2.4G+5GHz, HE80, MIMO, 1024-QAM. Bluetooth 5.1. NFC. Sistema operativo Android. GPS. Navegador: Chrome. Sensores: Accelerometer, Barometer, Fingerprint Sensor, Gyro Sensor, Geomagnetic Sensor, Hall Sensor, Light Sensor, Proximity Sensor. Bateria de 3300 mAh. No incluye cargador. Trae un nuevo micro chip.',
     trademark:'Samsung',
-    coast:'$219.999,00',
-    qty:''
+    coast: 219.999
 },{
     id: '3',
     categoryId:'1',
@@ -24,8 +21,7 @@ const data = [{
     title:'CELULAR SAMSUNG S22+ / SM-S906EZKMARO ROSA',
     description:'Celular. Pantalla 6.4" Dynamic AMOLED 2X. Procesador: Octa core. Resolucion: 2340 x 1080 FHD+. Camara: 50.0 MP + 10.0 MP + 12.0 MP. Frontal: 10 MP. Sistema operativo Android. Almacemamiento: 256 Gb. RAM: 8 Gb. Dual SIM. Video 4k. WIFI. USB. NFC. GPS. Navegador Chrome. Bateria: 4500 mAh. Bluetooth.',
     trademark:'Samsung',
-    coast:'$279.999,00',
-    qty:''
+    coast: 279.999
 },{
     id: '4',
     categoryId:'2',
@@ -33,8 +29,7 @@ const data = [{
     title:'CELULAR APPLE IPHONE 13 - MLPH3LE/A ROSA',
     description:'Celular de 6.1" OLED. Procesador Chip A15 Bionic. Almacenamiento 128Gb / RAM 4 Gb. Camara frontal 12Mp / trasera 12Mp. NFC. USB-C. Bluetooth 5.0. Sistema operativo iOS 15. WiFi 802.11ax (6tagen.) con MIMO2x2. Radio. Graba y reproduce video. GPS. Navegador Safari.Un gran salto en la duracion de la bateria. Pantalla Super Retina XDR. Diseno resistente con ceramic shield. Mejores fotos y videos con poca luz. Modo cine con baja profundidad de campo y cambios de enfoque automaticos.',
     trademark:'Iphone',
-    coast:'$658.879,00',
-    qty:''
+    coast: 658.879
 },{
     id: '5',
     categoryId:'2',
@@ -42,8 +37,7 @@ const data = [{
     title:'CELULAR APPLE IPHONE 11 - BLANCO',
     description:'Sistema de dos cámaras de 12 MP (ultra gran angular y gran angular) con modo Noche, modo Retrato y video 4K de hasta 60 cps. Cámara frontal TrueDepth de 12 MP con modo Retrato, video 4K y video en cámara lenta. Face ID para una autenticación segura y Apple Pay. Chip A13 Bionic con Neural Engine de tercera generación.',
     trademark:'Iphone',
-    coast:'$88.700,00',
-    qty:''
+    coast: 88.700
 },{
     id: '6',
     categoryId:'3',
@@ -51,8 +45,7 @@ const data = [{
     title:'AURICULAR PHILCO AP9TWS',
     description:'Auricular Buds True Wireless Sport. Conexxion Bluetooth V5.0. Funcion manos libres con microfono incoporado. Bateria recargable de larga duracion, hasta 12 horas de reproduccion. 4 cargas de 3 horas cada uno en estuche. Estuche compacto y elegante. Sonido Hi Fi. Extra Bass. Apto deportes.',
     trademark:'Philco',
-    coast:' $11.999,00',
-    qty:''
+    coast: 11.999
 },{
     id: '7',
     categoryId:'3',
@@ -60,8 +53,7 @@ const data = [{
     title:'AURICULAR HAVIT E303P',
     description:'Auricular In Ear. Cable de 120 cm de largo. Conexion de 3.5 mm. Respuesta de frecuencia: 20Hz-20 KHz.. Microfono y boton para atender llamadas incorporado',
     trademark:'HAVIT',
-    coast:'$1.169,00',
-    qty:''
+    coast: 1.169
 },{
     id: '8',
     categoryId:'3',
@@ -69,8 +61,7 @@ const data = [{
     title:'CARGADOR SAMSUNG EP-TA20RW',
     description:'Cargador de pared ultra fast con cable Micro USB 15w. Power 2000mAh - 5V',
     trademark:'Samsung',
-    coast:'$3.499,00',
-    qty:''
+    coast: 3499
 }
 ]
 

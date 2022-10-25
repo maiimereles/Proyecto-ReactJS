@@ -30,7 +30,6 @@ const Cart = () => {
           <p className="card-text">Cantidad: {item.qty}</p>
           <p className="card-text"><small className="text-muted">Costo por unidad: {item.coast}</small></p>
           <p className="card-text">Costo total: {ctx.totalPriceForProduct()}</p>
-          <p className="card-text">Costo total: {ctx.totalPrice()}</p>
           <button type="button" className="btn btn-outline-danger" onClick ={() => ctx.removeItem(item.id)}>Delete this product</button>
         </div>
         </div>

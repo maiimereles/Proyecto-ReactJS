@@ -15,32 +15,7 @@ const CartContextProvider = ({children}) => {
         return cartList.reduce((previous, current) => previous + current.qty * current.coast, 0);
     } 
 
-/*     const totalPriceForProduct = (id) => {
-        let pricePerAmount = cartList.find((item) => item.id === id);
-        return (pricePerAmount.qty * pricePerAmount.coast)
-    } */
-
-    const totalPrice = () => {
-        let pricePerAmount = cartList.map(item => (item.coast * item.qty));
-        return pricePerAmount.reduce((acumulador, precioXProd) => acumulador += precioXProd, 0);
-    }
-
- /*    const totalPrice = () =>{
-        let totalPerItem = cartList.map(item=> )
-    } */
-
     const totalProducts = () => cartList.reduce((acumulador, productoActual) => acumulador + productoActual.qty, 0);
-
-   /*  const productTotalCoast = () => {
-        let qtys = cartList.map(item=>item.qry);
-        let priceForItem = cartList.map(item=>item.coast);
-        return precioPorItem.reduce ((()))
-    } */
-
-   /*  const calculoQty = () => {
-        let qtys = cartList.map(item => item.qtyItem);
-        return qtys.reduce(((previousValue, currentValue) => previousValue + currentValue), 0);
-    } */
 
     const clear = () =>{
         setCartList([]);
@@ -50,10 +25,8 @@ const CartContextProvider = ({children}) => {
         setCartList(cartList.filter(item => item.id !==id))
     }
 
-    //const isInCart = (id) => cartList.find(item=>item.id !==id) ? true:false;
-
     return(
-        <CartContext.Provider value={{cartList, addItem, clear, removeItem, totalPriceForProduct, totalProducts, totalPrice}}>
+        <CartContext.Provider value={{cartList, addItem, clear, removeItem, totalPriceForProduct, totalProducts}}>
             { children }
         </CartContext.Provider>
     )
