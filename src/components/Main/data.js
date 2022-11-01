@@ -37,7 +37,7 @@ const data = [{
     title:'CELULAR APPLE IPHONE 11 - BLANCO',
     description:'Sistema de dos cámaras de 12 MP (ultra gran angular y gran angular) con modo Noche, modo Retrato y video 4K de hasta 60 cps. Cámara frontal TrueDepth de 12 MP con modo Retrato, video 4K y video en cámara lenta. Face ID para una autenticación segura y Apple Pay. Chip A13 Bionic con Neural Engine de tercera generación.',
     trademark:'Iphone',
-    coast: 88.700
+    coast: 88700
 },{
     id: '6',
     categoryId:'3',

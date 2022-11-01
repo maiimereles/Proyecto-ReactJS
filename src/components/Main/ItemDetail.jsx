@@ -23,7 +23,7 @@ const ItemDetail = ({item}) => {
       <h1>{item.title}</h1>
       <p>{item.trademark}</p>
       <p>{item.description}</p>
-      <p>{item.coast}</p>
+      <p>${item.coast}</p>
     {
       itemCount === 0
       ? <ItemCounts stock={10} initial={0} onAdd={onAdd}/>
